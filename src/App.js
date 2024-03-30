@@ -2,7 +2,7 @@ import PaymentForm from "./component/payment-form";
 
 function App() {
   return (
-    <div>
+    <div className="bg-purple-200 h-[100vh]">
       <PaymentForm />
     </div>
   );
