@@ -16,7 +16,6 @@ const schema = Yup.object().shape({
 const CountryForm = (props) => {
   const { formData } = props;
   const {
-    register,
     control,
     handleSubmit,
     formState: { errors },

@@ -13,7 +13,6 @@ const schema = Yup.object().shape({
 const CustomForm = (props) => {
   const { formData } = props;
   const {
-    register,
     control,
     handleSubmit,
     formState: { errors },

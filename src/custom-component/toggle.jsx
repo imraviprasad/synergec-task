@@ -1,4 +1,3 @@
-import React from "react";
 import { useController } from "react-hook-form";
 
 function ToggleButton({ name, control, defaultValue, disabled }) {
